@@ -197,7 +197,7 @@ class ViewController: UIViewController {
         
     }
     @IBAction func Dot(_ sender: Any) {
-        result.text! = result.text\ + "."
+        result.text = result.text! + "."
         judge = 1
     }
     @IBAction func Result(_ sender: Any) {
